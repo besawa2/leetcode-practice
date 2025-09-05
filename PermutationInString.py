@@ -4,7 +4,7 @@ class Solution:
             return False
         s1Count = {}
         for i in range(len(s1)):
-            s2Count[s2[r]] = s2Count.get(s2[r], 0) + 1
+            s1Count[s1[i]] = s1Count.get(s1[i], 0) + 1
         s2Count = {}
         l = 0
         s2Count[s2[l]] = 1
