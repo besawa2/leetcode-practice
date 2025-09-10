@@ -7,7 +7,7 @@ class Solution:
 
         def backtrack(i):
             if i > len(nums) - 1:
-                res.append(tuple(subset))
+                res.append(subset)
                 return
             
             subset.append(nums[i])
